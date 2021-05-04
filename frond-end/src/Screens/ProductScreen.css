@@ -54,3 +54,45 @@
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
 }
+
+.rigth__info p > button{
+    grid-column: 1/-1;
+    padding: 10px 16px;
+    background-color: #171717;
+    color: #f4f4f4;
+    border: 1px solid #171717;
+    cursor: pointer;
+} 
+
+.rigth__info p > button:hover{
+    background-color: #f4f4f4;
+    color: #171717;
+}
+
+.rigth__info p > select{
+    padding: 10px 16px;
+}
+
+@media(max-width : 960px){
+    .productScreen{
+        flex-direction: column;
+        flex: 1;
+    }
+.productscreen__left{
+    flex-direction: column;
+    flex: 1;
+}
+.productleft__info{
+    flex: 1;
+}
+.left__image{
+    flex: 1;
+}
+
+.productscreen__right{
+    flex: 1;
+}
+.rigth__info{
+    width: 100%;
+}
+}
