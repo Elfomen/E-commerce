@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import './CartItem.css'
-function cartItem() {
+function CartItem() {
     return (
         <div className="cartitem">
             <div className="cartitem__image">
@@ -27,4 +27,4 @@ function cartItem() {
     )
 }
 
-export default cartItem
+export default CartItem

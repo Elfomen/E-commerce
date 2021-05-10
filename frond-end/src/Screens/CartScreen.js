@@ -6,6 +6,9 @@ function CartScreen() {
             <div className="cartscreen__left">
                 <h2>The Shopping cart</h2>
                 <Cart />
+                <Cart />
+                <Cart />
+                <Cart />
             </div>
             <div className="cartscreen__rigth">
                 <div className="cartitem__info">
@@ -15,6 +18,9 @@ function CartScreen() {
                     <p>
                         499.99$
                     </p>
+                    
+                </div>
+                <div>
                     <p>
                         <button>Proceed to Checkout</button>
                     </p>
